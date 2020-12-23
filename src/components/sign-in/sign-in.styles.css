@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryColor:#11998e;
+    --secondaryColor:#38ef7d;
+    --white:#fff;
+    --gray:#9b9b9b;
+}
+
+html{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: white;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    border: 1px solid black;
+    flex-direction: column;
+    width:80vw;
+    margin-top: 30px;
+    border-radius: 5px;
+    /* background-color: rgba(0, 0, 0, 0.678); */
+}
+
+.container-form{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin:auto
+}
+.form-button{
+    margin: 20px;
+    
+}
+
